@@ -1,0 +1,110 @@
+@font-face{
+    font-family:'MochiyPopOne-Regular';
+    src:url(MochiyPopOne-Regular.ttf)format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    font-family: 'MochiyPopOne-Regular', sans-serif;
+    color:white;
+    margin: 0px;
+    padding: 0px;
+    background-image: url("img/bg1.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100px;
+   
+    }
+   
+    .left{
+        display:inline-block;
+        top:10px;
+        position:absolute;
+        left:10px;
+}
+  
+    .mid{
+        
+        top:50px;
+        display:block;
+        width:40%;
+        margin:4px auto;
+      
+    }
+    .right{
+        position:absolute;
+        right:34px;
+        top: 20px;
+        display:inline-block;
+       
+    }
+    .navbar{
+        display:inline-block;
+    }
+    .navbar ul{
+        font-size: 13px;
+        list-style: none;
+        margin: 0 0 0 -0.8125em;
+        padding-left: 0;
+    }
+    .navbar li{
+        display:inline-block;
+        font-size:14px;
+     
+        padding-left: 11px;
+    }
+    .navbar li a:hover ,   .navbar li a.active {
+       
+        text-decoration:underline;
+        color:grey;
+        padding:1px;
+        
+    }
+    .left img{
+        width:100px;
+        left: 50px;
+        filter:invert(100%);
+    }
+    .left div{
+        text-align:center;
+        font-size:10px;
+        text-align:center;
+    }
+    .btn{
+        font-family: 'PT Sans', sans-serif;
+        margin:0px 9px;
+        color:white;
+        background-color: black;
+        padding: 4px 14px;
+        border:2px solid grey;
+        border-radius:10px;
+        font-size:13px;
+        cursor:pointer;
+       
+    }
+   
+    .btn:hover{
+        background-color:rgb(31,30,30);
+    }
+
+    .container{
+        border:2px solid white;
+        margin:106px 86px;
+        padding:70px;
+        border-radius:28px;
+        width:25%;
+    }
+   .container button{
+    width:101%;
+    display:block;
+    margin:2px auto;
+   }
+    .form-group input{
+        text-align: center;
+        display:block;
+        padding: 1px;
+        width:310px;
+        margin:3px auto;
+        border: 2px solid black;
+        border-radius: 5px;
+    }
